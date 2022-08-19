@@ -1,0 +1,136 @@
+<html>
+<html lang="en">
+	<head>
+		<meta charset= "UTF-8">
+		<meta name="viewport" content="width=device-width, intial-scale=1.8">
+		<title>PokeDex</title>
+        <b>BY:</b> &lt;Ethan Tarlov, Braedon Gipson&gt;<br>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+		
+			<link rel="stylesheet" href="Hot_Chocolate.css">
+			
+			<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+		
+		</head>
+		<body>
+			<header>
+				<div class="logo"
+                
+                    
+				</div>
+				<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul clas="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">Sample Queries</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">Relations</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">Creator Email</a></li>
+				</ul>
+			</nav>	
+		</header>
+	
+		<!-- introduction -->
+		<section class= "intro" id="home">
+			<h1 class="section__title section__title--intro">
+			Welcome to the <strong>PokeDex</strong>
+			</h1>
+			<p class="section__subtilte__subtitle--intro">A display for pokemon data</p> 
+			<img src="pokeball.jpg" alt="" class="intro__img">
+			</section>
+
+
+	<!-- My services -->
+	<section class="my-services" id="services">
+		<h2 class="section__title section__title--services">Query Input</h2>
+		<div class= "services">
+			<div class="service">
+				
+			</div> <!-- / service -->
+		<div class="service">
+			<form method="POST" action= "data.php">
+                <table>
+                  <tbody><tr>
+                    <td align="right">
+                      <strong>Please enter your query here<br></strong>
+                    </td>
+                    <td>
+                      <input size="30" name="query" type="text">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="right">
+                      <input value="Clear" type="reset">
+                    </td>
+                    <td>
+                      <input value="Submit" type="submit">
+                    </td>
+                  </tr>
+                </tbody></table>
+              </form>
+            </div> <!-- / service -->
+			
+
+		</div> <!-- / services -->
+		
+		<a href="#work" class="btn">My Work</a>
+	</section>
+	
+	
+	<!-- About me -->
+	<section class="about-me"id="about">
+		<h2 clas="section__title section__title--about">Relations</h2>
+		<p class="section__subtitle section__subtitle--about"></p>
+		<div class="about-me__body">
+			<ol>
+                <li><a href="http://css1.seattleu.edu/~etarlov/Pokemon.php#" target="_blank">Pokemon</a> 
+                </li><li><a href="http://css1.seattleu.edu/~etarlov/Type.php#">Type</a>
+                </li><li><a href="http://css1.seattleu.edu/~etarlov/Region.php#">Region</a>
+                </li><li><a href="http://css1.seattleu.edu/~etarlov/Natural.php#">Natural Habitat</a>
+                </li><li><a href="http://css1.seattleu.edu/~etarlov/Signature.php#">Signature</a>
+                </li><li><a href="http://css1.seattleu.edu/~etarlov/Move.php#">Move</a>
+                </li><li><a href="http://css1.seattleu.edu/~etarlov/Classification.php#">Classification</a>
+                </li><li><a href="http://css1.seattleu.edu/~etarlov/Stats.php#">Stats</a>
+                </li></ol>
+	</div>
+      <img src="img/devjane-02.jpg" alt="" class="about-me__img"> 
+	</section>
+	
+	<!-- My Work -->
+	<section class="my-work" id="work">
+		<h2 class="section__title section__title--work">Sample Queries</h2>
+		<p class="section__subtitle section__subtitle--work"></p>
+		
+		<div class="portfolio">
+			<!-- Portfolio Item 01 -->
+			<a href="#" clas="portfolio__item">
+				<ol>
+                    <li><a href="http://css1.seattleu.edu/~etarlov/Query1.php#">Query1</a>: &lt;Find the name of the pokemon with the highest stat_max&gt;
+                    </li><li><a href="http://css1.seattleu.edu/~etarlov/Query2.php#">Query2</a>: &lt;Count the number of fire pokemon&gt;
+                    </li><li><a href="http://css1.seattleu.edu/~etarlov/Query3.php#">Query3</a>: &lt;Finds Pokemon with the max stat higher than a pokemon selected&gt;
+                    </li><li><a href="http://css1.seattleu.edu/~etarlov/Query4.php#">Query4</a>: &lt;Find the one or multiple Pokemon with the Avg_stats no greater than 5&gt;
+                    </li><li><a href="http://css1.seattleu.edu/~etarlov/Query5.php#">Query5</a>: &lt;Find the Pokemon_ID belonging to the pokemon who dont have a natural habitat&gt;
+                    </li></ol>
+				</a>
+		</div>
+	</section>
+	
+	   <!-- footer -->
+		<footer class="footer">
+		<!-- this is for email address -->
+			<a href="mailto:bgipson@seattleu.edu" class="footer-link">bgipson@seattleu.edu</a>
+			<ul class="social-list">
+				<li class="social-list__item"><a class="social-list__links" href="https://linkedin.com">a</a></li>
+				<li class="social-list__item" href="">b<a class="social-list__link"></a></li>
+			</ul>
+		</footer>
+		
+		
+<script src="Hot_Apple_Cider.js"></script>
+	
+	</body>
+	
+</html>	
+	
