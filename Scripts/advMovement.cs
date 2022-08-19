@@ -32,7 +32,7 @@ public class advMovement : MonoBehaviour
     {
         Move();
     }
-    //kiiiiillllll meeeee
+
     private void Move()
     {
         isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
