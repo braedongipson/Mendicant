@@ -29,6 +29,6 @@ public class Majestic : MonoBehaviour
         }
         moveDirection.y -= gravity; //gravity 
 
-        controller.Move(moveDirection * Time.deltaTime); //What the hell?
+        controller.Move(moveDirection * Time.deltaTime); 
     }
 }
